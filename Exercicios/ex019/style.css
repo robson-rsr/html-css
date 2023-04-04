@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(161, 244, 255);
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+}
+#principal{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5em;
+    text-align: center;
+    background-color:rgb(153, 109, 255) ;
+    color: rgb(166, 248, 248);
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+.basico{
+    color: rgb(0, 108, 151);
+}
+.intermediario{
+    color: rgb(191, 204, 4);
+}
+.avançado{
+    color: rgb(182, 11, 11);
+}

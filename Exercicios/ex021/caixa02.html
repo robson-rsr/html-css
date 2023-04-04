@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgb(164, 255, 225);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header{
+            background-color: rgb(2, 66, 66);
+            color: rgb(117, 252, 207);
+            text-align: center;
+            height: 90px;
+            margin: 10px;
+        }
+
+
+        
+
+        nav{
+            background-color:rgb(117, 252, 207);
+            color: rgb(185, 80, 255);
+            text-decoration: none;
+            font-family: cursive;
+            margin: 5px;
+            
+        }
+
+        nav > a{
+            background-color:rgb(117, 252, 207);
+            color: rgb(185, 80, 255);
+            text-decoration: none;
+            font-family: cursive;
+            margin-right: 60px;
+           
+        }
+
+        nav > a:hover{
+            color: rgb(2, 66, 66) ;
+            text-decoration: underline;
+        }
+
+        nav > a:active{
+            color: red;
+        }
+
+        main{
+            background-color: rgb(2, 66, 66);
+            color: rgb(117, 252, 207);
+            margin: 20px;
+            padding: 10px;
+       
+        }
+
+        article{
+            background-color:  rgb(2, 66, 66);
+            color: rgb(117,252, 207) ;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(1, 41, 41);
+            color: rgb(117, 252, 207);
+            padding: 2px;
+            margin: 0px
+        }
+
+        footer{
+            background-color: rgb(1, 41, 41);
+            color: rgb(117, 252, 207);
+            text-align: center;
+        }
+        footer:hover{
+            color: purple;
+            text-decoration: underline;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="link">Link</a>
+            <a href="link">Link</a>
+            <a href="link">Link</a>
+            <a href="link">Link</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="s1">
+            <p>Esportes | Politica | Tecnologia</p>
+        </section>
+        <section id="s2">
+            <h1>Noticia sobre o Brasil</h1>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eaque sunt dignissimos soluta iure rerum deserunt beatae quis ea cum mollitia, neque maxime distinctio repellat alias repudiandae doloremque amet perspiciatis!</p>
+                <aside>
+                    Artigo escrito por Robson Silva
+                </aside>
+            </article>
+            <article>
+
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Robson</p>
+    </footer>
+
+
+</body>
+</html>
